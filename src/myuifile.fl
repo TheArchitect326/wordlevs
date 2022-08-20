@@ -1,0 +1,147 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0400
+header_name {.h}
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window main_window {
+      label WordleVS open
+      xywh {1218 224 500 700} type Double box SHADOW_BOX color 32 labelcolor 7 align 16 size_range {500 700 500 700} visible
+    } {
+      Fl_Box title {
+        label WordleVS selected
+        xywh {200 85 100 15} labelsize 35 labelcolor 7
+      }
+      Fl_Output row0_col0 {
+        label row0_col0_output
+        xywh {85 195 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 7 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row0_col1 {
+        label row0_col1_output
+        xywh {152 195 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 7 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row0_col2 {
+        label row0_col2_output
+        xywh {219 195 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 7 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row0_col3 {
+        label row0_col3_output
+        xywh {286 195 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row0_col4 {
+        label row0_col4_output
+        xywh {353 195 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row1_col0 {
+        label row1_col0_output
+        xywh {85 250 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row1_col1 {
+        label row1_col1_output
+        xywh {152 250 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row1_col2 {
+        label row1_col2_output
+        xywh {219 250 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row1_col3 {
+        label row1_col3_output
+        xywh {286 250 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row1_col4 {
+        label row1_col4_output
+        xywh {353 250 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row2_col0 {
+        label row2_col0_output
+        xywh {85 305 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row2_col1 {
+        label row2_col1_output
+        xywh {152 305 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row2_col2 {
+        label row2_col2_output
+        xywh {219 305 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row2_col3 {
+        label row2_col3_output
+        xywh {286 305 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row2_col4 {
+        label row2_col4_output
+        xywh {353 305 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row3_col0 {
+        label row3_col0_output
+        xywh {85 360 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row3_col1 {
+        label row3_col1_output
+        xywh {152 360 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row3_col2 {
+        label row3_col2_output
+        xywh {219 360 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row3_col3 {
+        label row3_col3_output
+        xywh {286 360 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row3_col4 {
+        label row3_col4_output
+        xywh {353 360 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row4_col0 {
+        label row4_col0_output
+        xywh {85 415 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row4_col1 {
+        label row4_col1_output
+        xywh {152 415 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row4_col2 {
+        label row4_col2_output
+        xywh {219 415 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row4_col3 {
+        label row4_col3_output
+        xywh {286 415 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row4_col4 {
+        label row4_col4_output
+        xywh {353 415 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row5_col0 {
+        label row5_col0_output
+        xywh {85 470 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row5_col1 {
+        label row5_col1_output
+        xywh {152 470 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row5_col2 {
+        label row5_col2_output
+        xywh {219 470 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row5_col3 {
+        label row5_col3_output
+        xywh {286 470 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output row5_col4 {
+        label row5_col4_output
+        xywh {353 470 62 62} box BORDER_BOX color 32 selection_color 8 labelcolor 88 align 16 textsize 35 textcolor 7
+      }
+      Fl_Input user_input {
+        label user_input
+        xywh {92 600 315 62} box NO_BOX color 32 align 16 textsize 35 textcolor 7
+      }
+      Fl_Output turn_output {
+        label turn_output
+        xywh {92 550 315 30} box NO_BOX color 32 selection_color 32 labelsize 15 align 16 textsize 30 textcolor 7
+      }
+    }
+  }
+}
