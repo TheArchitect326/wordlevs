@@ -1,5 +1,5 @@
 # WordleVS
-My second rust project
+A two-player Wordlelike game written in Rust.
 
 # Credits
-Code is heavily inspired/some of it is probably straight up copied from @jonhoo (github.com/jonhoo).
+Some code is heavily inspired by work by github.com/jonhoo on his Wordle solver.
